@@ -4,7 +4,7 @@ function resolve(dir) {
 }
 module.exports = {
   assetsDir: 'static',
-  publicPath: './',
+  publicPath: '/',
   productionSourceMap: false, // 生产环境的 source map
   devServer: { // 开发调试服务器配置项
     overlay: { // 让浏览器 overlay 同时显示警告和错误
